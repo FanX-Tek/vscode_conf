@@ -1,0 +1,46 @@
+{
+    
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+
+        "**/arch/{arc,[m-x]*}": true,
+        "**/arch/arm/cpu/{arm[0-9]*,armv7*,pxa,sa*}": true,
+        "**/arch/arm/dts/{[a-p]*,[s-z]*,r[0-9]*,rk1*,rk3[0-3]*,rv*,rk3x*,}": true,
+        "**/arch/arm/cpu/armv8/{fsl*,hisi*,s32*,zynq*}": true,
+        "**/arch/arm/include/asm/{arch-[a-p]*,arch-[s-z]*,mach*,iproc*,kona*,ti*}": true,
+        "**/arch/arm/include/asm/{armv7*}": true,
+        "**/arch/arm/{mach-[a-o]*,mach-[s-z]*,mach-rmobile}": true,
+        "**/arch/arm/mach-rockchip/{rk1*,rk3[0-3]*,rv*,px30}": true,
+        "**/board/{[0-9]*,[A-Z]*,[a-q]*,[s-z]*,radxa,raid*,rasp*,rene*,riko*,rone*}": true,
+        "**/board/rockchip/{f*,g*,k*,s*,t*,evb_p*,evb_rk1*,evb_rk3[0-3]*,evb_rv*}": true,
+        "**/configs/{[0-9]*,[A-Z]*,[a-q]*,[s-z]*,r[0-9]*,rk1*,rk3[0-3]*,rk3566*,ra*,ri*,rv*,rp*,rs*,rknpu*,ru*}": true,
+
+    },
+
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true,
+
+        "**/arch/{arc,[m-x]*}": true,
+        "**/arch/arm/cpu/{arm[0-9]*,armv7*,pxa,sa*}": true,
+        "**/arch/arm/dts/{[a-p]*,[s-z]*,r[0-9]*,rk1*,rk3[0-3]*,rv*,rk3x*,}": true,
+        "**/arch/arm/cpu/armv8/{fsl*,hisi*,s32*,zynq*}": true,
+        "**/arch/arm/include/asm/{arch-[a-p]*,arch-[s-z]*,mach*,iproc*,kona*,ti*}": true,
+        "**/arch/arm/include/asm/{armv7*}": true,
+        "**/arch/arm/{mach-[a-o]*,mach-[s-z]*,mach-rmobile}": true,
+        "**/arch/arm/mach-rockchip/{rk1*,rk3[0-3]*,rv*,px30}": true,
+        "**/board/{[0-9]*,[A-Z]*,[a-q]*,[s-z]*,radxa,raid*,rasp*,rene*,riko*,rone*}": true,
+        "**/board/rockchip/{f*,g*,k*,s*,t*,evb_p*,evb_rk1*,evb_rk3[0-3]*,evb_rv*}": true,
+        "**/configs/{[0-9]*,[A-Z]*,[a-q]*,[s-z]*,r[0-9]*,rk1*,rk3[0-3]*,rk3566*,ra*,ri*,rv*,rp*,rs*,rknpu*,ru*}": true,
+
+    },
+    "files.associations": {
+        "wait_bit.h": "c"
+    }
+}
